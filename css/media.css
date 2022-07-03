@@ -1,0 +1,41 @@
+@media screen and (min-width: 480px) {	
+	.wrapper{
+		display: flex;
+	}
+
+	.sidebar{
+		width: 240px;
+		flex-shrink: 0;
+		min-height: 100vh;
+	}
+
+	.main{
+		flex-grow: 1;
+	}
+}
+
+@media screen and (min-width: 800px){
+	.sidebar {
+		width: 300px;		
+	}
+
+}
+
+@media screen and (min-width: 900px) {
+	.box{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.box{
+		width: 33.33333333333333%;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	.box{
+		width: 25%;
+		height: auto;
+	}
+}
